@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/*---------------------------heading*/
+.logo {
+    font-family: "Anton";
+    
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}

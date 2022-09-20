@@ -1,108 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 1
 
-Welcome USER_NAME,
+## UX:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Project goals:
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The goal of this website is to create a community that makes users feels welcomed and confident in asking and helping other users with different video games. The landing page will show the user Who the company is and what they want to achieve with the website. The landing page of the site will show a brief description of the current team and a brief description of who they are. The about us page will show the main description of the team as well as use images to show what gaming setups they use and what games they like playing as well as a little description of what they do. This is to show users no matter what they do they can always find comfort in knowing they will always be supported in their gaming hobbies and will be able to find some useful players and make friends along the way. The enquires page will allow users to contact the company about any questions they may have towards games or the company in general.
 
-## Gitpod Reminders
+### User goals:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The target audience for this website are gamers new or old.
 
-`python3 -m http.server`
+The goals of the site are as followed:
 
-A blue button should appear to click: _Make Public_,
+- to create a community
+- to allow communication between users and the company
+- a safe and comfortable enviroment
+- to meet the team already apart of the community
+- to feel safe communicating with individuals that are used to making friends online and gaming with them
 
-Another blue button should appear to click: _Open Browser_.
+### Developer goals:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- make a friendly and easy to use website
+- allow the users to meet the team behind the business
+- allow the users to feel comfortable getting in contact
+- allow users to contact the company via an enquires page
+- allow users to see what the team do for their jobs and hobbies
 
-A blue button should appear to click: _Make Public_,
+## Structure:
 
-Another blue button should appear to click: _Open Browser_.
+ The structure of the website will contain a homogenous navigation bar that will bw comprised of three button links the first of which will be a link back to the homepage and this will be the companys name, the next link will be the 'meet the team' button which will link to the second page and the third link will be a link called 'enquires' to link to the third page. The navigation bar will be mobile responsive and will change to a drop down menu using the 'burger icon' this will be so it fits nicely on to a smaller screen and easy to use by the users.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ All three pages will be styled using custom CSS/CSS3 as well as using the help from prewritten code such as bootstrap 4, this is so that the users can experience a custom feel to the website and feel welcomed knowing that the company cares what the website looks like to make new users become recurring users. The three pages will also be responsive, this will be done by the use of CSS, bootstrap and media queries. This is so that whether the user is using a mobile device, a tablet or a computer they will be able to see the full width of the website without cutting anything out or having to have a horizontal scroll bar just to see the website.
 
-To log into the Heroku toolbelt CLI:
+ The use of media queries will allow the website to shrink to fit any users devices or expand if going from a smaller device to a bigger one. The use of media queries will mean that any element that are set to a certain measurement maybe set to a new measurement on other devices so that it can fit comfortably in the intended screen sizes. The text on pages will not change so that the user can still read the text without having to change their zoom size this being said it may mean that the user may have to scroll vertically depending on the overall size of the amount of text in a specific element.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ The footer element will also be homogeneous as it will be set out to have a 'back to top' button allowing the user to link back to the top of their current page this is so that the user will not have to scroll up their page to get back to the top. Along side this the footer will also include social links to the following sites:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ - Facebook
+ - Twitter
+ - Instagram
+ - Discord
 
-------
+These will all include their respective icons as well as their names. The footer element will also use media queries this is so that when a user browses the site on a mobile device they will not have the names causing them to have to scroll horizontally, they will just be able to see the icons themselves.
 
-## Release History
+ The landing page will be comprised of the nav bar mentioned above as well as a hero image with text inside this box allowing the user to find out a little bit of information about the company and why they have made the website. This will be followed by three slideshow image boxes that will be layed out in a 2 1 formation, this meaning that the first two boxes will be positioned besides eachother with margins to keep the boxes seperated and the third will be centered underneath the two other boxes. This will allow the user to interact with each of them to see different images of games that the current team play. The first of which will contain images of shooting games, the second of which will contain images of racing games and the third of which will contain images of miscellaneous games. The miscellaneous games will consist of random genres of games such as indies, RGPs and more.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ The 'meet the team' page will consist of the header and footers that are previously spoken about as well as a number of boxes consisting of a picture of the team, their setups and a brief description of who they are, what they do and what they play. This will be shown using 3 boxes 1 of the person, the  next will be the text to describe the person and the final will be another image but this time of their set ups. This will follow the same pattern all the way down the page. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+ The 'enquires' page will be made up of the homogeneous header and footer the rest of the page will have another banner image, this will be to reduce the amount of whte space there will be on the final page. As well as the banner there will also be a form on the page this is for the users to get in contact with the team for any of their needs. These could range from just a simple question about a game to asking for a team to play with.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+ 
