@@ -49,4 +49,36 @@ These will all include their respective icons as well as their names. The footer
 
  The 'enquires' page will be made up of the homogeneous header and footer the rest of the page will have another banner image, this will be to reduce the amount of whte space there will be on the final page. As well as the banner there will also be a form on the page this is for the users to get in contact with the team for any of their needs. These could range from just a simple question about a game to asking for a team to play with.
 
- 
+## Design:
+
+### Wireframes:
+
+#### Desktop:
+
+Landing page:
+
+![Landing page wireframe](assets/landing%20page.png)
+
+Meet the team page:
+
+![Meet the team wireframe](assets/meet%20the%20team%20page.png)
+
+Enquiries:
+
+![Enquiries wireframe](assets/enquires%20page.png)
+
+#### Mobile versions:
+
+Landing page:
+
+![Mobile Landing page wireframe](assets/landing%20page%20mobile.png)
+
+Meet the team page:
+
+![Mobile Meet the team wireframe](assets/meet%20the%20team%20page%20mobile.png)
+
+Enquiries:
+
+![Mobile Enquiries wireframe](assets/enquires%20page%20mobile.png)
+
+### colour
