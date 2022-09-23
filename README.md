@@ -82,3 +82,5 @@ Enquiries:
 ![Mobile Enquiries wireframe](assets/enquires%20page%20mobile.png)
 
 ### colour
+
+The color that have been used 

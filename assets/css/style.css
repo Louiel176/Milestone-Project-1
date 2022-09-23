@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /*---------------------------heading*/
-.logo {
-    font-family: "Anton";
-    
+
+header {
+    margin: 0;
+    height: 60px;
+    background-color:rgb(36, 39, 43);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
+.nav {
+    width: 33%;
+    text-transform: uppercase;
+    color: #119822;
 }
- 
+
+/*----------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background-color: aliceblue;
+}
+
+.hvr-sweep-to-bottom:hover {
+    color: #0f084b;
+}
