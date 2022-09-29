@@ -84,3 +84,36 @@ Enquiries:
 ### colour
 
 The color that have been used 
+
+## References
+
+### coding
+
+In this project the website has used the help of other websites such as:
+
+- Qnimate this is to add a slider so that the users can look through different images of games as mentioned above, the website link is presented below:
+    http://qnimate.com/creating-a-slider-using-html-and-css-only/
+
+- W3schools this is to help with some of the styling of the site, the website link is presented below:
+    https://www.w3schools.com
+
+
+### Images
+
+The images that have been used on the website are from the following websites
+
+- https://blog.activision.com/call-of-duty/2020-03/Introducing-a-game-changing-FREE-TO-PLAY-experience-Call-of-Duty-Warzone
+
+- https://www.pexels.com
+
+- https://www.callofduty.com
+
+- https://www.playvalorant.com
+
+- https://www.forza.net
+
+- https://www.minecraft.net
+
+- https://www.bendstudio.com
+
+- 
