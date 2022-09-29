@@ -9,20 +9,74 @@ header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .nav {
     width: 33%;
     text-transform: uppercase;
     color: #119822;
+    margin-bottom: 25px;
 }
 
-/*----------------------------Hover.css*/
+/*---------------------------hover*/
 
 .hvr-sweep-to-bottom:before {
-    background-color: aliceblue;
+    background-color: rgba(72, 79, 87, 0.778);
 }
 
 .hvr-sweep-to-bottom:hover {
-    color: #0f084b;
+    color: #fafafa;
+}
+
+/*---------------------------body*/
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background-image: url(//assets/images/pexels-lucie-liz-3165335.jpg);
+}
+
+/*---------------------------transform*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*---------------------------footer*/
+
+footer {
+    background-color: rgb(36, 39, 43);
+    min-height: 120px;
+    margin: 0;
+}
+
+.back-to-top {
+    margin-top: 50px;
+}
+
+button[type="button"]{
+    background-color: rgb(72, 79, 87);
+    border-color: #119822;
+    margin-left: 25px;
+}
+
+button[type="button"]:hover {
+    background-color: rgb(51, 56, 62);
+}
+
+.socials:before {
+    color: #fafafa;
+}
+
+.social-links {
+    float: right;
+    color: #119822;
+    margin-right: 50px;
+}
+
+.social-links a i {
+    color: #119822;
+    margin-right: 10px;
 }
