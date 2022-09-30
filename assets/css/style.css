@@ -31,10 +31,31 @@ header {
 
 /*---------------------------body*/
 
+#hero {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#cover-text {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    color: #fafafa;
+    background-color: rgba(72, 79, 87, 0.778);
+    font-size: 100%;
+    right: 40%;
+    bottom: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(/assets/images/pexels-resizee.jpg) no-repeat center center;
+    background: url(/assets/images/pexels-resizee.jpg) center center;
 }
 
 /*---------------------------transform*/
@@ -43,21 +64,6 @@ header {
     text-transform: uppercase;
 }
 
-/*---------------------------hero image*/
-
-#hero {
-    height: 600px;
-    width: 100%;
-    position: relative;
-}
-
-#cover-text {
-    height: 200px;
-    width: 300px;
-    position: absolute;
-    color: #fafafa;
-    background-color: rgba(72, 79, 87, 0.778);
-}
 
 /*---------------------------footer*/
 
