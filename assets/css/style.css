@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/*---------------------------heading*/
+/*---------------------------Heading*/
 
 header {
     margin: 0;
@@ -9,17 +9,19 @@ header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    /*margin-bottom: 25px;*/
+    font-size: 150%;
+    font-family: 'Oswald';
+    font-weight: 600;
 }
 
 .nav {
-    width: 33%;
+    width: 100%;
     text-transform: uppercase;
     color: #119822;
     margin-bottom: 25px;
 }
 
-/*---------------------------hover*/
+/*---------------------------Hover*/
 
 .hvr-sweep-to-bottom:before {
     background-color: rgba(72, 79, 87, 0.778);
@@ -29,7 +31,20 @@ header {
     color: #fafafa;
 }
 
-/*---------------------------body*/
+/*---------------------------Body*/
+
+body {
+    background-color: #f1e4e8;
+}
+
+h2, h3 {
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Abyssinica SIL';
+}
 
 #hero {
     height: 600px;
@@ -40,16 +55,16 @@ header {
 }
 
 #cover-text {
-    height: 300px;
+    height: 350px;
     width: 400px;
     position: absolute;
     color: #fafafa;
-    background-color: rgba(72, 79, 87, 0.778);
+    background-color: rgba(72, 79, 87, 0.9);
     font-size: 100%;
-    right: 40%;
-    bottom: 40%;
+    right: 30%;
+    bottom: 25%;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 #hero-image {
@@ -58,19 +73,52 @@ header {
     background: url(/assets/images/pexels-resizee.jpg) center center;
 }
 
-/*---------------------------transform*/
+.row {
+    margin: 0;
+}
+
+
+/*---------------------------Transform*/
 
 .uppercase {
     text-transform: uppercase;
 }
 
+/*---------------------------Slideshow*/
 
-/*---------------------------footer*/
+.genre {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: #119822;
+    background-color: rgb(51, 56, 62);
+    border-color: rgb(36, 39, 43) ;
+    border-style: groove;
+}
+
+.slideshow {
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+    border-color: rgb(36, 39, 43);
+    border-style: double;
+
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 245px;
+    
+}
+
+
+
+/*---------------------------Footer*/
 
 footer {
     background-color: rgb(36, 39, 43);
     min-height: 120px;
-    margin: 0;
+    margin-top: 25px;
 }
 
 .back-to-top {
@@ -81,6 +129,7 @@ button[type="button"]{
     background-color: rgb(72, 79, 87);
     border-color: #119822;
     margin-left: 25px;
+    font-family: 'Abyssinica SIL';
 }
 
 button[type="button"]:hover {
@@ -95,6 +144,7 @@ button[type="button"]:hover {
     float: right;
     color: #119822;
     margin-right: 50px;
+    font-family: 'Abyssinica SIL';
 }
 
 .social-links a i {

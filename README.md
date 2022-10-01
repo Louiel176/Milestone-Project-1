@@ -81,18 +81,18 @@ Enquiries:
 
 ![Mobile Enquiries wireframe](assets/enquires%20page%20mobile.png)
 
-### colour
+### Colour
 
 The color that have been used 
 
 ## References
 
-### coding
+### Coding
 
 In this project the website has used the help of other websites such as:
 
-- Qnimate this is to add a slider so that the users can look through different images of games as mentioned above, the website link is presented below:
-    http://qnimate.com/creating-a-slider-using-html-and-css-only/
+- bootstrap 4 this is to incorporate the many functions available for use, the website link is presented below:
+    https://getbootstrap.com/docs/4.2/getting-started/introduction/
 
 - W3schools this is to help with some of the styling of the site, the website link is presented below:
     https://www.w3schools.com
@@ -116,4 +116,24 @@ The images that have been used on the website are from the following websites
 
 - https://www.bendstudio.com
 
-- 
+- https://www.innersloth.com/games/among-us/
+
+## Testing
+
+### Bugs
+
+In this project I have come across several bugs that I have needed to fix these are in no particular order but are shown below:
+
+A bug that I have come across was that the cover text over the hero image wasn't showing up properly it was meant to be displaying over the image but didn't show up so I have had to re-size the text and change the text colour this allowed the text to be shown but did not align to the box that the text was in properly and was overflowing the box to change this I had to re-size the box that it was in to make it bigger so that the box had padding around the text allowing the text to fit nicely in the box.
+
+Another bug that I have come across was the use of functionality with slideshow images as they were only appearing with the first image and not showing the other images or allowing the user to scroll through the images provides as shown below:
+
+![Slideshow bug](assets/testing/slideshow%20bug.PNG)
+
+To fix this I have added the javascript functionality provided by providing the link references to jquery, popper.js and bootstrap.min.js by doing this this has allowed the slides to work as its intended purpose.
+
+Another bug that has been encounted due to the sizes of the images are that the first image which was the biggest before has been resized to fit however the other two images have also been resized and they don't fit in the box.
+
+![Slideshow bug](assets/testing/slideshow-bug-resize-CODMW.png)
+![Slideshow bug](assets/testing/slideshow-bug-resize-Warzone.png)
+![Slideshow bug](assets/testing/slideshow-bug-resize-varlarant.png)
