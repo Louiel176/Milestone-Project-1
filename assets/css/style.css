@@ -111,6 +111,33 @@ p {
     
 }
 
+/*---------------------------Meet the team*/
+
+.person img {
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    border-color: rgb(36, 39, 43);
+    border-style: double;
+}
+
+.description {
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    background-color: #3B413C;
+    color: #fafafa;
+    padding: 10px;
+}
+
+.set-up {
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+}
 
 
 /*---------------------------Footer*/
