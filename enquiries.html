@@ -26,7 +26,28 @@
     </header>
     <section>
         <div id="hero-image">
-            
+            <div class="enquiries-form rounded">
+                <form class="enquiries" method="post" action="enquiries.html">
+                    <h2>Enquiries:</h2>
+                    <p>Let us know how we can help you?</p>
+                    <label for="fname" class="rounded">First Name:</label>
+                    <input id="fname" class="input rounded" type="text" name="first_name" placeholder="John" required />
+                    <br>
+                    <label for="lname" class="rounded">Last Name:</label>
+                    <input id="lname" class="input rounded" type="text" name="last_name" placeholder="Doe" required />
+                    <br>
+                    <label for="gtag" class="rounded">Gamer Tag:</label>
+                    <input id="fname" class="input rounded" type="text" name="gamer_tag" placeholder="jdoe99"/>
+                    <br>
+                    <label for="email" class="rounded">Email Address:</label>
+                    <input id="email" class="input rounded" type="email" name="email_address" placeholder="jdoe99@gmail.com" required />
+                    <br>
+                    <label for="enquire" class="rounded">Question:</label>
+                    <textarea class="form-control" id="enquire" rows="5" placeholder="Ask us whatever you'd like whether it be help with a game, finding a game, finding someone to play with. Alternatively you can find us via our social links below."></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
         </div>
     </section>
     <footer>

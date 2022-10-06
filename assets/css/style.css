@@ -34,7 +34,7 @@ header {
 /*---------------------------Body*/
 
 body {
-    background-color: #f1e4e8;
+    background-color: #2D3A3A;
 }
 
 h2, h3 {
@@ -114,7 +114,7 @@ p {
 /*---------------------------Meet the team*/
 
 .person img {
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 50px;
     height: 300px;
     width: 300px;
@@ -123,7 +123,7 @@ p {
 }
 
 .description {
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 50px;
     height: 300px;
     width: 300px;
@@ -133,12 +133,66 @@ p {
 }
 
 .set-up {
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 50px;
     height: 300px;
     width: 300px;
 }
 
+.style {
+    margin-left: 5%;
+    margin-top: 25px;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    border-style: groove;
+    border-color: rgb(36, 39, 43);
+    background-color: #FCFFFC;
+}
+
+
+/*---------------------------Form*/
+
+.enquiries-form {
+    height: 550px;
+    width: 33%;
+    color: #fafafa;
+    background-color: rgba(72, 79, 87, 0.9);
+    font-size: 100%;
+    left: 33%;
+    position: absolute;
+    padding: 10px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.enquiries-form h2, p {
+    text-align: center;
+}
+
+.enquiries-form label {
+    border-color: rgba(36, 39, 43, 0.6) ;
+    border-style: groove;
+    padding: 5px;
+}
+
+.enquiries-form input {
+    border-color: rgb(36, 39, 43) ;
+    border-style: groove;
+    padding: 5px;
+}
+
+button[type="submit"]{
+    background-color: rgb(72, 79, 87);
+    border-color: #119822;
+    margin-left: 25px;
+    font-family: 'Abyssinica SIL';
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(51, 56, 62);
+    border-color: #116622;
+}
 
 /*---------------------------Footer*/
 

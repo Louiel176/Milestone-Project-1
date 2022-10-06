@@ -83,7 +83,7 @@ Enquiries:
 
 ### Colour
 
-The color that have been used 
+The color that have been used are contrasting colours so they can stand out and are easy for the user to recognise the different elements. Such as the boxes that surround the text the colors being used are as such #3B413C this is a dark grey that allows for a lighter color text to stand out so the text color that has been choosen to use is #fafafa this is an off white color, this applies to the UX as it allows the user to be able to comfortably read the text on the page. The other colours used are also dark colours with lighter colours that stand out so that they attract the users eyes.
 
 ## References
 
