@@ -83,7 +83,13 @@ Enquiries:
 
 ### Colour
 
-The color that have been used are contrasting colours so they can stand out and are easy for the user to recognise the different elements. Such as the boxes that surround the text the colors being used are as such #3B413C this is a dark grey that allows for a lighter color text to stand out so the text color that has been choosen to use is #fafafa this is an off white color, this applies to the UX as it allows the user to be able to comfortably read the text on the page. The other colours used are also dark colours with lighter colours that stand out so that they attract the users eyes.
+The color that have been used are contrasting colours so they can stand out and are easy for the user to recognise the different elements. Such as the boxes that surround the text the colors being used are as such #3B413C this is a dark grey that allows for a lighter color text to stand out so the text color that has been choosen to use is #fafafa this is an off white color, this applies to the UX as it allows the user to be able to comfortably read the text on the page. The other colours used are also dark colours with lighter colours that stand out so that they attract the users eyes. The other colours that have been used are as followed:
+- rgb(36, 39, 43) this is a grey colour used on the navigation bar and the footer element, the colour used against this is #119822 this is a green that stands out against the background colour. These colours have been reused a few times so that the colours don't variate too much. By reusing these colours it allows for the user to be more comfortable using the website as it means theres not loads of different colours jumping out at the user. 
+-  rgba(72, 79, 87, 0.778) this colour has been used for the navigation bar this is to add an interactive element for the user, when the user hovers over one of the navigation buttons it will have the colour stated above come down from the top of the button and cover the button whilst also changing the text colour to #fafafa which is an off white colour. 
+- #2D3A3A this colour is used so that the white space left on the website can be coloured and allows for other elements to be used in order the break the page up allowing for an easier read. This has allowed the 'meet the team' page to have been styled and positioned correctly allowing for a more aesthetically pleasing website. 
+- rgba(72, 79, 87, 0.9) this colour is used for the element over the hero image so that text can be placed on top without be unreadable the colour uses the alpha unit so that the image is still partly visable to the user while making the text easy to read. The text colour used is the off white colour #fafafa. 
+- rgb(51, 56, 62) this colour has also been used as a background colour for headings with a contrasting text colour which is #119822 this is the green that has been used throughout the website.
+- rgb(72, 79, 87) this colour has been used for the buttons used on the page to show repetitiveness over the webpage, the buttons use #119822 as the contrasting colour to make the text stand out against the background. The buttons also use the following colours for an interactive element, rgb(51, 56, 62) and #116622 these colour are a darker shade of the colours mentioned above this is so that the user can see when they are hovering over the element. 
 
 ## References
 
@@ -97,6 +103,8 @@ In this project the website has used the help of other websites such as:
 - W3schools this is to help with some of the styling of the site, the website link is presented below:
     https://www.w3schools.com
 
+- coolors is a random colour generator that has been used to decide what colours should be used and gives the colour hex number of the colour, the website link is presented below:
+    https://coolors.co/040f0f-248232-2ba84a-2d3a3a-fcfffc
 
 ### Images
 
@@ -118,6 +126,8 @@ The images that have been used on the website are from the following websites
 
 - https://www.innersloth.com/games/among-us/
 
+The other images on the page have come from members of the community these images are shown on the 'meet the team' page.
+
 ## Testing
 
 ### Bugs
@@ -137,3 +147,13 @@ Another bug that has been encounted due to the sizes of the images are that the 
 ![Slideshow bug](assets/testing/slideshow-bug-resize-CODMW.png)
 ![Slideshow bug](assets/testing/slideshow-bug-resize-Warzone.png)
 ![Slideshow bug](assets/testing/slideshow-bug-resize-varlarant.png)
+
+On the footer there has been a reoccuring bug which shows up of the Discord icon not showing up.
+
+![Socials bug](assets/testing/socials-bug.png)
+
+The code being used doesn't allow the discord icon to show on the webpages. To solve this bug a script log has been added to the code, this has allowed the icon to show within the website across all pages.
+
+![Socials fix](assets/testing/socials-fix.png)
+
+Across the whole website specific fonts should have been in use these fonts didn't always show up when using different elements so on the CSS the code has been added to each of the elements where the fonts didn't show up. This has allowed the font to be present throughout the whole website.
