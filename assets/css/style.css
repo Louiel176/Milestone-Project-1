@@ -197,6 +197,13 @@ button[type="submit"]:hover {
     border-color: #116622;
 }
 
+.contact {
+    margin: auto;
+    width: 60%;
+    color: #fafafa;
+    text-align: center;
+}
+
 /*---------------------------Footer*/
 
 footer {
@@ -235,4 +242,126 @@ button[type="button"]:hover {
 .social-links a i {
     color: #119822;
     margin-right: 10px;
+}
+
+/*---------------------------Screen resize*/
+
+@media screen and (max-width:1200px) {
+    #cover-text {
+        width: 75%;
+        height: auto;
+        margin-left: 25px;
+        left: 5%;
+    }
+
+    .style .col {
+        width: 33%;
+    }
+
+    .person {
+        margin: 0 0 0 10px;     
+        width: 100%;
+    }
+
+    .person img {
+        width: 100%;
+        margin: 0;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        font-size: small;
+        margin-bottom: 10px;
+        
+    }
+
+    .description p {
+        margin: 0;
+        text-align: left;
+        line-height: 140%;
+    }
+
+    .slideshow {
+        margin-top: 15px;
+    }
+
+    .slideshow .center {
+        width: 100%;
+        margin: 0;
+        height: 300px;
+    }
+
+    .set-up {
+        margin: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .enquiries-form {
+        height: auto;
+        width: 50%;
+    }
+
+
+    .back-to-top {
+        float: left;
+        margin-top: 5%;
+    }
+
+    .back-to-top a {
+        margin: 0;
+    }
+
+    .social-links {
+        float: right;
+        width: 50%;
+        margin: 0;
+        
+    }
+
+    footer {
+        padding: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    header {
+        height: 80px;
+    }
+
+    .nav {
+        font-size: large;
+    }
+
+    .description {
+        font-size: medium;
+    }
+
+    section .row .col {
+        min-width: 100%;
+    }
+
+    .enquiries-form {
+        width: auto;
+        left: 0%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .contact {
+        margin-top: 10px;
+    }
+
+    button[type="submit"]{
+        margin: 0;
+    }
+
+    button[type="button"]{
+        margin: 0;
+    }    
 }

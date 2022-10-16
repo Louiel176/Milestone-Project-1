@@ -231,3 +231,30 @@ This technology being used for the project allows for the developer to change co
 - Coolors
 
 This technology shows randomly generated colours with their hex number/RGB number.
+
+## Testing
+
+Milestone project 1 - The community requires testing to be applied this testing is of the responsiveness, visual and layout of the website. The site does not require the use of back-end functuality however it does require a form so this does not have to link to a server.
+
+### Summary of test on website
+
+The tests that will be done on the website are of the layout of the website making sure that none of the elements of the website over laps another causing the user to be confused due to overlapping text/pictures. 
+
+The site should change due to screen size changes for instance changing from a desktop view to other devices such as tablet or mobile devices. The responsivity of the website should change depending on what screen size is detected. 
+
+The navigation shouldn't change depending on the different screen sizes but the elements should change size to meet the expectation of the user. 
+
+The main navigation links should allow the user to go from one page to the next with a click of a button without opening in a new tab. The only links that should open a new tab will be the external links that are provided for the user to access social links. 
+
+Testing on the form pages will show what fields are required by the user to enter information that the business needs for the user to enter in order to complete the form. As well as checking for this the testing will also show what happens if the user enters incorrect information such as their email address.
+
+### Tests
+
+![Testing screenshot](/assets/testing/testing-screenshot.png)
+
+The tests shown above are to show responsive testing for the change of screen sizes from desktop to tablet to mobile viewing these have been show from each change I.E. the change from desktop to tablet, change from desktop to mobile and so on. Other tests are also shown showing tests for the navigation responsiveness and links, the social links opening new tabs so that user doesn't lose the community website. The tests also show the tests done to the form to make sure the form is responsive when the user misses a field that is required by the website. 
+
+All of the pages containing HTML have been tested using a validator with one reoccuring error taking place which is the use of an button being a decendent of the A attribute so I have decided to remove the code to this section as it is not a crucial part to the website, this being said I shall add this at a later stage when developing the website futher with the correct corrective actions taking place to make this code valid for later use. The HTML validator being used is https://validator.w3.org.
+
+The CSS within the website has also been put in to the with no errors occuring. The CSS validator that has been used is https://jigsaw.w3.org/css-validator/.
+
