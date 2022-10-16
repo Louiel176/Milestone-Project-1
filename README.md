@@ -258,3 +258,6 @@ All of the pages containing HTML have been tested using a validator with one reo
 
 The CSS within the website has also been put in to the with no errors occuring. The CSS validator that has been used is https://jigsaw.w3.org/css-validator/.
 
+#### deployment 
+
+In the deployment of the website a few bugs have arose for instance the deployment is using a previous version of the code that have been pushed to github pages, this includes code that has been taken out and also exclude code that has been recently writen into the webpage. Another issue that has arose has been that none of the images are accessable via the website. To fix the issue with previous code being loaded I've had to save and redeploy my code so that it updates itself while fixing some of the coding issues it has not fixed all of them and continues to use older code on one of the pages, 'meet the team' page still has the back to top button which was taken out of the code due to validation errors. By changing parts of the code and redeploying the code it has allowed for the updated version of the website to be deployed but a few bugs are still showing like displaying images is still showing their alt attributes instead of loading the images themselves.
