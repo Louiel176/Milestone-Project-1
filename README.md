@@ -28,26 +28,26 @@ The goals of the site are as followed:
 
 ## Structure:
 
- The structure of the website will contain a homogenous navigation bar that will bw comprised of three button links the first of which will be a link back to the homepage and this will be the companys name, the next link will be the 'meet the team' button which will link to the second page and the third link will be a link called 'enquires' to link to the third page. The navigation bar will be mobile responsive and will change to a drop down menu using the 'burger icon' this will be so it fits nicely on to a smaller screen and easy to use by the users.
+ The structure of the website will contain a homogenous navigation bar that will bw comprised of three button links the first of which will be a link back to the homepage and this will be the companys name, the next link will be the 'meet the team' button which will link to the second page and the third link will be a link called 'enquires' to link to the third page.
 
  All three pages will be styled using custom CSS/CSS3 as well as using the help from prewritten code such as bootstrap 4, this is so that the users can experience a custom feel to the website and feel welcomed knowing that the company cares what the website looks like to make new users become recurring users. The three pages will also be responsive, this will be done by the use of CSS, bootstrap and media queries. This is so that whether the user is using a mobile device, a tablet or a computer they will be able to see the full width of the website without cutting anything out or having to have a horizontal scroll bar just to see the website.
 
  The use of media queries will allow the website to shrink to fit any users devices or expand if going from a smaller device to a bigger one. The use of media queries will mean that any element that are set to a certain measurement maybe set to a new measurement on other devices so that it can fit comfortably in the intended screen sizes. The text on pages will not change so that the user can still read the text without having to change their zoom size this being said it may mean that the user may have to scroll vertically depending on the overall size of the amount of text in a specific element.
 
- The footer element will also be homogeneous as it will be set out to have a 'back to top' button allowing the user to link back to the top of their current page this is so that the user will not have to scroll up their page to get back to the top. Along side this the footer will also include social links to the following sites:
+ The footer element will also be homogeneous the footer will include social links to the following sites:
 
  - Facebook
  - Twitter
  - Instagram
  - Discord
 
-These will all include their respective icons as well as their names. The footer element will also use media queries this is so that when a user browses the site on a mobile device they will not have the names causing them to have to scroll horizontally, they will just be able to see the icons themselves.
+These will all include their respective icons as well as their names.
 
- The landing page will be comprised of the nav bar mentioned above as well as a hero image with text inside this box allowing the user to find out a little bit of information about the company and why they have made the website. This will be followed by three slideshow image boxes that will be layed out in a 2 1 formation, this meaning that the first two boxes will be positioned besides eachother with margins to keep the boxes seperated and the third will be centered underneath the two other boxes. This will allow the user to interact with each of them to see different images of games that the current team play. The first of which will contain images of shooting games, the second of which will contain images of racing games and the third of which will contain images of miscellaneous games. The miscellaneous games will consist of random genres of games such as indies, RGPs and more.
+ The landing page will be comprised of the nav bar mentioned above as well as a hero image with text inside this box allowing the user to find out a little bit of information about the company and why they have made the website. When in the desktop view the hero image will be followed by 3 slideshows side by side of eachother. The three slideshow image boxes will be layed out in a 2 1 formation when being used on smaller screen sizes, this meaning that the first two boxes will be positioned besides eachother with margins to keep the boxes seperated and the third will be centered underneath the two other boxes. This will allow the user to interact with each of them to see different images of games that the current team play. The first of which will contain images of shooting games, the second of which will contain images of racing games and the third of which will contain images of miscellaneous games. The miscellaneous games will consist of random genres of games such as indies, RGPs and more.
 
  The 'meet the team' page will consist of the header and footers that are previously spoken about as well as a number of boxes consisting of a picture of the team, their setups and a brief description of who they are, what they do and what they play. This will be shown using 3 boxes 1 of the person, the  next will be the text to describe the person and the final will be another image but this time of their set ups. This will follow the same pattern all the way down the page. 
 
- The 'enquires' page will be made up of the homogeneous header and footer the rest of the page will have another banner image, this will be to reduce the amount of whte space there will be on the final page. As well as the banner there will also be a form on the page this is for the users to get in contact with the team for any of their needs. These could range from just a simple question about a game to asking for a team to play with.
+ The 'enquires' page will be made up of the homogeneous header and footer the rest of the page. As well as the homogeneous header and footer there will also be a form on the page this is for the users to get in contact with the team for any of their needs. These could range from just a simple question about a game to asking for a team to play with.
 
 ## Design:
 
@@ -98,33 +98,35 @@ The color that have been used are contrasting colours so they can stand out and 
 In this project the website has used the help of other websites such as:
 
 - bootstrap 4 this is to incorporate the many functions available for use, the website link is presented below:
-    https://getbootstrap.com/docs/4.2/getting-started/introduction/
+    [bootstap 4](https://getbootstrap.com/docs/4.2/getting-started/introduction/)
 
 - W3schools this is to help with some of the styling of the site, the website link is presented below:
-    https://www.w3schools.com
+    [w3schools](https://www.w3schools.com)
 
 - coolors is a random colour generator that has been used to decide what colours should be used and gives the colour hex number of the colour, the website link is presented below:
-    https://coolors.co/040f0f-248232-2ba84a-2d3a3a-fcfffc
+    [coolors](https://coolors.co/040f0f-248232-2ba84a-2d3a3a-fcfffc)
+
+
 
 ### Images
 
 The images that have been used on the website are from the following websites
 
-- https://blog.activision.com/call-of-duty/2020-03/Introducing-a-game-changing-FREE-TO-PLAY-experience-Call-of-Duty-Warzone
+- [activition](https://blog.activision.com/call-of-duty/2020-03/Introducing-a-game-changing-FREE-TO-PLAY-experience-Call-of-Duty-Warzone)
 
-- https://www.pexels.com
+- [pexels](https://www.pexels.com)
 
-- https://www.callofduty.com
+- [COD](https://www.callofduty.com)
 
-- https://www.playvalorant.com
+- [valorant](https://www.playvalorant.com)
 
-- https://www.forza.net
+- [forza](https://www.forza.net)
 
-- https://www.minecraft.net
+- [minecraft](https://www.minecraft.net)
 
-- https://www.bendstudio.com
+- [bend studio](https://www.bendstudio.com)
 
-- https://www.innersloth.com/games/among-us/
+- [among us](https://www.innersloth.com/games/among-us/)
 
 The other images on the page have come from members of the community these images are shown on the 'meet the team' page.
 
@@ -177,6 +179,8 @@ Due to the limited use of JavaScript, the only use is from Bootstraps(JS/JQuery)
 - Sign up page - for the users to join the community team and be able to sign in when they please to.
 
 - Blog page - for users both new and old to communicate freely while being signed in with their personal account or just a guest account so that posts can be saved and will be monitored by senior members of the team. 
+
+- back to top button - this is so that users won't have to scroll up the page to get to the top of the page.
 
 ## Technologies
 
@@ -254,10 +258,19 @@ Testing on the form pages will show what fields are required by the user to ente
 
 The tests shown above are to show responsive testing for the change of screen sizes from desktop to tablet to mobile viewing these have been show from each change I.E. the change from desktop to tablet, change from desktop to mobile and so on. Other tests are also shown showing tests for the navigation responsiveness and links, the social links opening new tabs so that user doesn't lose the community website. The tests also show the tests done to the form to make sure the form is responsive when the user misses a field that is required by the website. 
 
-All of the pages containing HTML have been tested using a validator with one reoccuring error taking place which is the use of an button being a decendent of the A attribute so I have decided to remove the code to this section as it is not a crucial part to the website, this being said I shall add this at a later stage when developing the website futher with the correct corrective actions taking place to make this code valid for later use. The HTML validator being used is https://validator.w3.org.
+All of the pages containing HTML have been tested using a validator with one reoccuring error taking place which is the use of an button being a decendent of the A attribute so I have decided to remove the code to this section as it is not a crucial part to the website, this being said I shall add this at a later stage when developing the website futher with the correct corrective actions taking place to make this code valid for later use. The HTML validator being used is [HTML validator](https://validator.w3.org).
 
-The CSS within the website has also been put in to the with no errors occuring. The CSS validator that has been used is https://jigsaw.w3.org/css-validator/.
+The CSS within the website has also been put in to the with no errors occuring. The CSS validator that has been used is [CSS validator](https://jigsaw.w3.org/css-validator/).
 
 #### deployment 
 
 In the deployment of the website a few bugs have arose for instance the deployment is using a previous version of the code that have been pushed to github pages, this includes code that has been taken out and also exclude code that has been recently writen into the webpage. Another issue that has arose has been that none of the images are accessable via the website. To fix the issue with previous code being loaded I've had to save and redeploy my code so that it updates itself while fixing some of the coding issues it has not fixed all of them and continues to use older code on one of the pages, 'meet the team' page still has the back to top button which was taken out of the code due to validation errors. By changing parts of the code and redeploying the code it has allowed for the updated version of the website to be deployed but a few bugs are still showing like displaying images is still showing their alt attributes instead of loading the images themselves.
+
+After changing the code to allow the use of images on the live pages the images now show up this has been done by removing the '/' from the src link to the images. This has allowed for the site to function properly and display the images properly. 
+
+The live deployment of my milestone project 1 is linked below:
+[Live page deployment](https://louiel176.github.io/Milestone-Project-1/meet-the-team.html)
+
+The project started by using the given template from code institute and the use of bootstrap 4. The project then using the help of the above mentioned website the project was coded and tested using developement tools to help with the changes to the website. The development tools being used has allowed for certain code to be taken out and allows for the site changes to be viewed in real time instead of having to save and reload the site itself, this allows for quick code changes and re-enabling of valid code. It also allows for changes in screen sizes to show tablet views and mobile views, this allows for the website to be coded using media quiries and to see what changes need to be applied to different size screens.
+
+To deploy the live version of the website github pages have been used to do this go to the github repositories, click on setting, click the pages tab on the left hand side and click save this will deploy a live version of the website. To access the site click on the link provide above on the repositories page. 
