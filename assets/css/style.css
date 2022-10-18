@@ -121,8 +121,8 @@ p {
 
 .person {
     margin-left: 50px;
-    margin-top: 40px;
-    height: 300px;
+    margin-top: 20px;
+    height: 350px;
     width: 300px;
     
 }
@@ -130,7 +130,7 @@ p {
 .person img {
   
     width: 100%;
-    height: 100%;
+    height: 300px;
     border-color: rgb(36, 39, 43);
     border-style: double;
 }
@@ -349,6 +349,10 @@ button[type="button"]:hover {
 
     .nav {
         font-size: large;
+    }
+
+    .person h4 {
+        margin-top: 10px;
     }
 
     .description {
